@@ -11,14 +11,15 @@ def parse(source, offset)
   source[offset, 32]
 end
 
-def persist(output)
-  STDERR.puts output
+def persist(output, offset)
+  STDERR.puts "#{offset} : #{output}"
 end
 
 def run
-  0.upto(source_data.length - 32) do |i|
-    persist parse(source_data, i)
+  source = source_data "yeast"
+  0.upto(source.length - 32) do |i|
+    persist(parse(source, i), i)
   end
 end
 
-puts source_data "yeast"
+run
