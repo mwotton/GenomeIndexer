@@ -1,0 +1,9 @@
+Genome Indexer
+==============
+
+Created by
+  - Andrew Grimm
+  - Nick Sewell
+  - Gareth Stokes
+
+This will segment a genome based on "25 k-mer" algorithim so you can analyse for any differences
