@@ -7,3 +7,6 @@ Created by
   - Gareth Stokes
 
 This will segment a genome based on "25 k-mer" algorithim so you can analyse for any differences
+
+
+haskell reimpl by Mark Wotton. very small, not much to see here.
